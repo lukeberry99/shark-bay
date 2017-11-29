@@ -1,0 +1,19 @@
+{
+  "name": "shark-bay",
+  "version": "1.0.0",
+  "description": "An idle game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukeberry99/shark-bay.git"
+  },
+  "author": "Luke Berry <@lukeberry99>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukeberry99/shark-bay/issues"
+  },
+  "homepage": "https://github.com/lukeberry99/shark-bay#readme"
+}
