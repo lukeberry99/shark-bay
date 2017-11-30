@@ -1,20 +1,27 @@
-shark-bay
-=========
-An experiment in idle games
+# shark-bay
 
-Feature List
-------------
-* Upgrades to existing clicker types
-* Lower the amount of clicks per autoclicker?
-    * Cookie clicker does 0.1 per "cursor" per 10s as default
-    * 1 grandma does 1 click per second)
+> A Vue.js project
 
+## Build Setup
 
-Upgrades
---------
+``` bash
+# install dependencies
+npm install
 
-## Clicker
-Clickers are twice as powerful
-Clickers are twice as powerful
-Advanced clickers are twice as powerful
+# serve with hot reload at localhost:8080
+npm run dev
 
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
