@@ -12,9 +12,22 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
+  components: { App },
+  data () {
+    
+  },
+  created () {
+    window.setInterval(() => {
+      this.processUpgrades()
+    }, 1000)
+  },
+  methods: {
+    processUpgrades () {
+      store.state.upgrades.forEach(upgrade => {
+        if (upgrade.purchased > 0) {
+          store.state.totalClicks += (upgrade.value * upgrade.purchased)
+        }
+      })
+    },
+  }
 })
-
-window.setInterval(() => {
-  store.state.totalClicks += 1
-}, 1000)

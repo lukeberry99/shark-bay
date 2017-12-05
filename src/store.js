@@ -1,29 +1,31 @@
 export default {
   debug: true,
   state: {
-    totalClicks: 9950,
+    totalClicks: 0,
     upgrades: [
       {
         name: 'First Upgrade',
         cost: 100,
-        value: 1
+        value: 1,
+        purchased: 0
       },
       {
         name: 'Second Upgrade',
         cost: 1000,
-        value: 10
+        value: 10,
+        purchased: 0
       },
       {
         name: 'Dan\'s Upgrade',
         cost: 10000,
-        value: 50
-      }
-    ],
-    purchasedUpgrades: [
+        value: 50,
+        purchased: 0
+      },
       {
-        name: 'Dan\'s Upgrade',
-        cost: 10000,
-        value: 50
+        name: 'test',
+        cost: 5,
+        value: 5000,
+        purchased: 0
       }
     ]
   },
@@ -39,5 +41,7 @@ export default {
     this.state.totalClicks = this.state.totalClicks - amountToRemove
   },
   addUpgrade (upgrade) {
-  }
+    if (this.debug) console.log('Purchasing ' + upgrade.name)
+    upgrade.purchased = upgrade.purchased + 1
+  },
 }

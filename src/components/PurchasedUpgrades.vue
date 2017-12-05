@@ -1,12 +1,11 @@
 <template>
-  <div v-if="purchasedUpgrades[0]">
-    <h3>Purchased Upgrades</h3>
-    <ul>
-      <li v-for="upgrade in purchasedUpgrades">
-        {{ upgrade.name }} - {{ upgrade.cost }} - <span class="italic">{{ upgrade.value }} clicks per second</span>
-      </li>
-    </ul>
-  </div>
+<div>
+  <ul>
+    <li v-for="(upgrade, key) in upgrades" v-bind:key="key" v-if="upgrade.purchased > 0">
+      {{ upgrade.name }} x {{ upgrade.purchased }} - {{ (upgrade.value * upgrade.purchased) }} clicks per second
+    </li>
+  </ul>
+</div>
 </template>
 <script>
 import store from '../store'
@@ -16,8 +15,8 @@ export default {
   data () {
     return {
       sharedStore: store,
-      purchasedUpgrades: store.state.purchasedUpgrades
+      upgrades: store.state.upgrades
     }
-  }
+  },
 }
 </script>
