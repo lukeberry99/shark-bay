@@ -1,27 +1,49 @@
-# shark-bay
+shark-bay
+---------
 
-> A Vue.js project
+> an experiment in idle/incremental games with vuejs
 
-## Build Setup
-
+Build Setup
+===========
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn run dev
 
 # build for production with minification
-npm run build
+yarn run build
 
 # build for production and view the bundle analyzer report
-npm run build --report
+yarn run build --report
 
 # run unit tests
-npm run unit
+yarn run unit
 
 # run all tests
-npm test
+yarn test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Notes
+=====
+
+Premise: build an army, fight other armies
+
+What's needed to build an army?
+    Recruit soldiers
+        Soldiers need food and a place to live
+        Soldiers need weapons
+    Create weapons
+        Weapons need workers to make
+        Weapons need materials
+            wood, metal, stone
+    Create workers
+        Workers need food and a place to live
+
+Resources:
+    * wood
+    * metal
+    * stone
+    * food
+    * population
