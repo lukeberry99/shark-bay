@@ -30,20 +30,20 @@ Notes
 
 Premise: build an army, fight other armies
 
-What's needed to build an army?
-    Recruit soldiers
-        Soldiers need food and a place to live
-        Soldiers need weapons
-    Create weapons
-        Weapons need workers to make
-        Weapons need materials
-            wood, metal, stone
-    Create workers
-        Workers need food and a place to live
+* What's needed to build an army?
+    * Recruit soldiers
+        * Soldiers need food and a place to live
+        * Soldiers need weapons
+    * Create weapons
+        * Weapons need workers to make
+        * Weapons need materials
+            * wood, metal, stone
+    * Create workers
+       * Workers need food and a place to live
 
 Resources:
-    * wood
-    * metal
-    * stone
-    * food
-    * population
+* wood  
+* metal  
+* stone  
+* food  
+* population  
