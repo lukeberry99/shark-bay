@@ -42,8 +42,25 @@ Premise: build an army, fight other armies
        * Workers need food and a place to live
 
 Resources:
-* wood  
-* metal  
-* stone  
-* food  
-* population  
+* wood
+* metal
+* stone
+* food
+* population
+
+Breeding?
+* People can breed but they can't breed if they are assigned work?? 
+
+Random events
+* invading armies?
+* harsh winters
+* bad crops
+* earthquake
+* fire
+
+How would combat work?
+
+
+
+Name ideas:
+Devil? "The devil makes work out of idle hands"

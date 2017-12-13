@@ -43,5 +43,5 @@ export default {
   addUpgrade (upgrade) {
     if (this.debug) console.log('Purchasing ' + upgrade.name)
     upgrade.purchased = upgrade.purchased + 1
-  },
+  }
 }

@@ -14,7 +14,6 @@ new Vue({
   template: '<App/>',
   components: { App },
   data () {
-    
   },
   created () {
     window.setInterval(() => {
@@ -28,6 +27,6 @@ new Vue({
           store.state.totalClicks += (upgrade.value * upgrade.purchased)
         }
       })
-    },
+    }
   }
 })
